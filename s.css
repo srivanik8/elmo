@@ -1,0 +1,7 @@
+.gif-container {
+    display: none;
+}
+
+#startBtn, #stopBtn {
+    margin: 10px;
+}
