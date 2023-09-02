@@ -1,0 +1,104 @@
+
+body{
+    font-family: 'Edu NSW ACT Foundation', cursive;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-family: 'Signika', sans-serif;
+    background: #DDFFD9;
+    user-select: none;
+    height: 100%;
+}
+#container{
+    border-radius: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20%;
+    height: 100%;
+    width: 40%;
+}
+#item{
+    padding: 3% 10%;
+    border: 0px solid #000;
+    border-radius: 15px;
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+    margin: 20px 0;
+    font-size: 20px;
+    
+}
+#add-button{
+    padding: 3% 7%;
+    border: 0px solid #000;
+    border-radius: 15px;
+    text-align: center;
+    background-color: #FFB433;
+    font-family: 'Rubik', sans-serif;
+    font-size: 20px;
+}
+#add-button:hover{
+    background-color: #EE1B34;
+    cursor: pointer;
+}
+
+#img {
+    gap: 10px;
+    border-radius: 12px;
+    width: 300px;
+    height: 300px;
+    
+}
+ul{
+    list-style-type: none;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Two items per column */
+    grid-gap: 10px;
+    gap: 10px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+ul li{
+    font-size: 15px;
+    padding: 15px;
+    border-radius: 13px;
+    flex-grow: 1;
+    background-color: #F7E1D7;
+    margin-bottom: 10px;
+    text-align: center;
+    box-shadow: 0px 1px 4px rgba(0,0,0,0.2);
+}
+ul li:hover{
+    cursor: pointer;
+}
+
+nav{
+    background-color: #120D31;
+    width: 20%;
+    gap: 20px;
+}  
+body{
+    display: flex;
+    gap: 10px;
+    height: 715px;
+    background-color: #DDFFD9;
+}
+
+h3{
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    font-family: 'Merriweather', serif;
+}
+#elmo{
+    margin-top: 20%;
+}
+h3 img{
+    width: 100px;
+    height: 100px;
+
+}
+a{
+    text-decoration: none;
+}
+  

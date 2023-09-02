@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="tracky.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap" rel="stylesheet">
+    <title>Tracky</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="shortcut icon" href="#" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+
+    <nav>
+        <h3>
+            <img src="https://i.ibb.co/VS58Yyn/panda-6583478.png">
+        </h3>
+        <a href="s.html"><h3 id="elmo">elmo</h3></a>
+        <a href="tracky.html"><h3>tracky</h3></a>
+        <a href="sourcera.html"><h3>sourcera</h3></a>
+        <h3>✉</h3>
+    </nav>
+
+
+    <div id="container">
+        <img src="https://i.ibb.co/dG2cNw3/clock-removebg-preview.png" id="img">
+        <input type="text" id="item">
+        <button type="button" id="add-button">Add item</button>
+        <ul id="tasklist">
+        </ul>
+        <script src="tracky.js" type="module" defer></script>
+        <script src="func.js" type="module" defer></script>
+
+        <script type="module">
+            // Import the functions you need from the SDKs you need
+            import { initializeApp } from "https://www.gstatic.com/firebasejs/10.1.0/firebase-app.js";
+            // TODO: Add SDKs for Firebase products that you want to use
+            // https://firebase.google.com/docs/web/setup#available-libraries
+          
+            // Your web app's Firebase configuration
+            const firebaseConfig = {
+              apiKey: "AIzaSyDNNv4jsIrQte4U3KCt_oriTXdme3KtxnE",
+              authDomain: "ding-55998.firebaseapp.com",
+              databaseURL: "https://ding-55998-default-rtdb.europe-west1.firebasedatabase.app",
+              projectId: "ding-55998",
+              storageBucket: "ding-55998.appspot.com",
+              messagingSenderId: "978827814315",
+              appId: "1:978827814315:web:d9d4b0379c158b97a2deee"
+            };
+          
+            // Initialize Firebase
+            const app = initializeApp(firebaseConfig);
+          </script>
+    </div>
+</body>
+</html>
