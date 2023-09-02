@@ -1,7 +1,81 @@
 .gif-container {
     display: none;
+    background-color: aquamarine;
+
+}
+
+#gif{
+    position: fixed;
+    width: 500px;
+    height: 500px;
+    margin-left: 360px;
+    margin-top: 30px;
 }
 
 #startBtn, #stopBtn {
     margin: 10px;
+}
+
+nav{
+    background-color: #120D31;
+    width: 20%;
+    gap: 20px;
+}  
+body{
+    display: flex;
+    gap: 10px;
+    height: 715px;
+    background-color: #DDFFD9;
+}
+
+h3{
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    font-family: 'Merriweather', serif;
+}
+#elmo{
+    margin-top: 20%;
+}
+h3 img{
+    width: 100px;
+    height: 100px;
+
+}
+
+#func{
+    margin-left: 360px;
+    margin-top: 530px;
+    position: fixed;
+}
+#startBtn , #stopBtn{
+    width: 150px;
+    height: 50px;
+    border-radius: 12px ;
+    border: none;
+    background-color: #F83A53;
+    color: black;
+    font-size: 20px;
+}
+#start-stop{
+    display: flex;
+    gap: 100px;
+    
+}
+
+#duration{
+    font-size: 30px;
+    text-align: center;
+}
+#party , #eat , #sleep , #love{
+    width: 40px;
+    height: 40px;
+}
+#partyA , #partyB , #partyC , #partyD{
+    border: none;
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+    background-color: #DDFFD9;
+    margin-left: 40px;
 }
