@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Zetta&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lexend Zetta', sans-serif;
+    
+}
+html, body {
+    height: 100%;
+    width: 100%;
+    
+}
+ h1{
+    text-align: center;
+    padding: 44px 24px;
+ }
+
+ .card-body h2{
+    font-size: 16px;
+ }
+
+ .card{
+   margin: 32px 12px;
+ }
+
+ .card-body a{
+    font-size: 12px;
+ }
+
+ .card{
+    
+ }
