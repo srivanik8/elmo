@@ -1,0 +1,65 @@
+
+#ding{
+    height: 400px;
+    width: 500px;
+}
+#func{
+    background-color: #DDFFD9;
+}
+
+
+a{
+    text-decoration: none;
+}
+
+
+nav{
+    background-color: #120D31;
+    width: 20%;
+    height: 748px;
+}
+
+body{
+    display: flex;
+    height: 748px;
+    background-color: #DDFFD9;
+}
+
+h3{
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    font-family: 'Merriweather', serif;
+}
+#elmo{
+    margin-top: 20%;
+}
+h3 img{
+    width: 100px;
+    height: 100px;
+
+}
+
+
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+   
+}
+
+
+.about h1,h4{
+    margin: 24px;
+}
+
+.about i{
+    margin: 12px
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+}
+/* Global Styles */
