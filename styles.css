@@ -2,13 +2,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lexend+Zetta&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
 
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Lexend Zetta', sans-serif;
+    font-family: 'Poppins', serif;
     list-style: none;
     text-decoration: none;
     
@@ -16,188 +19,130 @@
 html, body {
     height: 100vh;
     width: 100%;
-    background-color:#021118 ;
-    /*background: #FDFC47;  /* fallback for old browsers */
-   /* background: -webkit-linear-gradient(to bottom, #24FE41, #FDFC47);  /* Chrome 10-25, Safari 5.1-6 */
-    /*background: linear-gradient(to bottom, #24FE41, #FDFC47); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-color: #D9AFD9;
+background-image: linear-gradient(0deg, #D9AFD9 0%, #97D9E1 100%);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
     
 }
-.sidebar{
-    position: fixed;
-    left: -250px;
-    width: 250px;
-    height: 100%;
-    background: #fff;
-    transition: all 0.5s ease;
-    top: 0;
-    z-index: 111111111;
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.sidebar ul a i {
-    color: black;
-    margin-right: 16px;
-
-}
-.sidebar header {
-    font-size: 20px;
-    color: black;
-    text-align:left;
-    line-height: 70px;
-    
-}
-
-.sidebar ul a{
-    display: block;
-    height: 100%;
-    width: 100%;
-    line-height: 65px;
-    font-size: 12px;
-    color: black;
-    padding-left: 40px;
-    box-sizing: border-box;
-    border-top: 1px solid rgba(0, 0, 0, 0.1);
-    transition: 0.4s;
-}
-
-ul li:hover a{
-    padding-left: 50px;
-}
-#check {
-    display: none;
-}
-label #btn, label #cancel{
-    position: absolute;
-    cursor: pointer;
-    background: transparent;
-    border-radius: 3px;
-}
-label #btn{
-    left: 40px;
-    top: 25px;
-    font-size: 35px;
-    color: white;
-    padding: 6px 12px;
-    transition: all 0.5s ease;
-    z-index: 1111111;
-}
-
-label #cancel{
-    z-index: 111111111111;
-    left: -205px;
-    top: 17px;
-    font-size: 30px;
-    color: black;
-    padding: 4px 9px;
-    transition: all 0.5s ease;
-
-}
-
-#check:checked ~ .sidebar {
-    left: 0;
-
-}
-
-#chech:checked ~ label #btn{
-    left: 250px;
-    opacity: 0;
-    pointer-events: none;
-}
-
-#check:checked ~ label #cancel{
-    left: 205px;
-
-}
-
-/*__________________________________Hero_Section_____________________________________*/
-
-.hero{
-    height: 600px;
-    width: 100%;
-    background-color: #021118;
-    top: 0;
-}
-.hero-img{
+.flex-item1 {
     position: relative;
-    left: 84px;
-    top: -30px;
-    height: 750px;
-    width: 550px;
-
-}
-.hero-text{
-    bottom: 300px;
-    left: 300px;
-}
-.hero h1{
-  color: #fff;
-  position: relative;
-  left:620px;
-  bottom:270px;  
-}
-.hero p{
-    color: #fff;
-    position: relative;
-    left: 620px;
-    bottom: 260px;
-}
-#start-btn button{
-
-    background-image: linear-gradient(to right, #16A085 0%, #F4D03F  51%, #16A085  100%);
-    margin: 10px;
-    padding: 15px 45px;
-    text-align: center;
-    text-transform: uppercase;
-    transition: 0.5s;
-    background-size: 200% auto;
-    color: white;            
-    box-shadow: 0 0 20px #0e0e0e;
-    border-radius: 10px;
-    display: block;
-    position: relative;
-    bottom:200px;
-    left: 620px;
-
+    right: 200px;
 }
 
-#start-btn li a{
-    text-decoration: none;
-    color: #021118;
-}
-.start-btn button:hover {
-    background-position: right center; 
-    color: #fff;
-    text-decoration: none;
-  }
-             
+.flex-item2 {
   
-     
+}
 
+.wrapper {
+    
+    width: 640px;
+    
+    padding: 24px;
+    
+    background-color: transparent;
+    backdrop-filter: blur(40px);
+    border: 2px solid rgba(255,255,255,0.2);
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    color: white;
 
-/*_________________________________________About____________________________________*/
-#about{
-    height: 500px;
+}
+
+.wrapper h1{
+    font-size: 44px;
+}
+
+.wrapper .input-box {
+    position: relative;
     width: 100%;
-    background-color:#021118;
+    height: 50px;
+    margin: 30px 0;
+   
 }
-#about h2{
-    position: relative;
-    top: 370px;
-    left:70px;
-    color: #fff;
+.input-box input {
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    border: 2px solid rgba(0, 0, 0, 0.45);
+    border-radius: 40px;
+    outline: none;
+    padding: 20px 32px;
 }
-#about p{
-    position: relative;
-    top:400px;
-    left:70px;
-    text-align: left;
+
+.input-box input::placeholder {
+    color: white;
+    font-size: 16px;
+    
+}
+
+.input-box i {
+    position: absolute;
+    right: 40px;
+    top: 50%;
+    transform: translateY(-50%);
+    
+}
+
+.wrapper .remember-forgot {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     font-size: 14px;
-    color: #fff;
+    padding-bottom:12px ;
 }
-#about .abt-img{
-    position: relative;
-    top:60px;
-    left:1020px;
-    height:500px;
-    width:450px;
+
+.remember-forgot label input{
+    accent-color: white;
+    margin: 3px;
+}
+
+.remember-forgot a{
+    color: white;
+    text-decoration: none;
+}
+.remember-forgot a:hover{
+    text-decoration: underline;
+}
+
+.wrapper .btn {
+width: 100%;
+height: 45px;
+border: none;
+outline: none;
+border-radius: 40px;
+background-color: white;
+}
+
+.wrapper .google-btn {
+    width: 100%;
+    height: 45px;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    background-color: black;
+    color: white;
+    font-size: 20px; 
+}
+
+.line {
+    width:100%;
+    height:44px;
+    color: black;
+
+
+}
+
+.line h5{
+padding-top: 20px;
+text-align: center;
 }
