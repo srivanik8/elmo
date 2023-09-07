@@ -1,18 +1,27 @@
 
+#ding{
+    height: 400px;
+    width: 500px;
+}
+#func{
+    background-color: #DDFFD9;
+}
 
 
-
+a{
+    text-decoration: none;
+}
 
 
 nav{
     background-color: #120D31;
     width: 20%;
-    gap: 20px;
-}  
+    height: 748px;
+}
+
 body{
     display: flex;
-    gap: 10px;
-    height: 715px;
+    height: 748px;
     background-color: #DDFFD9;
 }
 
@@ -51,6 +60,6 @@ h3 img{
 
 nav a{
     text-decoration: none;
-    color: #DDFFD9;
+    color: white;
 }
 /* Global Styles */
