@@ -1,26 +1,65 @@
 body {
+    
+    background-image: url('https://i.pinimg.com/564x/f1/21/07/f12107b93c8291953fac9d5e84891d38.jpg'); 
+    background-size:cover; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+    background-position: center; 
     text-align: center;
     font-family: Arial, sans-serif;
+    
 }
 h1 {
-    color: #333;
+    color: #fff;
+    font-size: 56px;
 }
 button {
     padding: 10px 20px;
+    margin: 10px;
+    margin-bottom: 20px;
     font-size: 16px;
-    background-color: #007bff;
+    background: #ed7070;
+    border-radius: 40px;
     color: #fff;
     border: none;
     cursor: pointer;
+    transition: all ease 0.45s;
+}
+button:hover{
+    box-shadow: 5px 5px 10px 2px #2f2f2f;
+    transform: translateY(-7px);
 }
 #output {
+    border-radius: 20px;
+    color: #b2afaf;
     margin-top: 10px;
     padding: 10px;
     border: 1px solid #ccc;
-    background-color: #f5f5f5;
+    background-color: white;
     max-height: 200px; /* Limit the height to create a scrollable area */
     overflow-y: auto; /* Add a vertical scrollbar when content exceeds max height */
     font-family: Arial, sans-serif;
 }
+li {
+    list-style: none;
+}
+.flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-item {
+    width: 840px;
+    height: 560px;
+    padding: 24px;
+    border-radius: 20px;
+    background-color: transparent;
+    backdrop-filter: blur(10px);
+    border: 2px solid rgba(255,255,255,0.2);
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    color: white;
+}
+
 
 
