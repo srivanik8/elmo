@@ -36,8 +36,7 @@ button:hover{
     padding: 10px;
     border: 1px solid #ccc;
     background-color: white;
-    max-height: 200px; /* Limit the height to create a scrollable area */
-    overflow-y: auto; /* Add a vertical scrollbar when content exceeds max height */
+    max-height: 200px; 
     font-family: Arial, sans-serif;
 }
 li {
