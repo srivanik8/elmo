@@ -7,13 +7,20 @@
     <title>speech to text</title>
 </head>
 <body>
+  <section>
     <h1>Speech to Text</h1>
-    <button id="startButton">Start Recording</button>
-    <button id="endButton">End Recording</button>
-    <button id="newSessionButton">New Session</button>
-    <li id="historyList"></li>
-    <div id="output">yoo</div>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js" defer></script>
+    <div class="flex-container">
+        <div class="flex-item">
+            <button id="startButton">Start Recording</button>
+            <button id="endButton">End Recording</button>
+            <button id="newSessionButton">New Session</button>
+            <li id="historyList"></li>
+            <div id="output">The text would be generated here..</div>
+        </div>
+    </div>
+</section>
+    
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js" defer></script>
     <script src="stt.js" defer></script>
 </body>
 </html>
