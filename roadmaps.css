@@ -16,6 +16,13 @@ html, body {
     width: 100%;
     
 }
+#arrow {
+   font-weight: bolder;
+   margin-left: 5%;
+   position: fixed;
+   cursor: pointer;
+   color: #000;
+ }
  h1{
     text-align: center;
     padding: 44px 24px;
@@ -31,8 +38,4 @@ html, body {
 
  .card-body a{
     font-size: 12px;
- }
-
- .card{
-    
  }

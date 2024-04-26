@@ -1,58 +1,53 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,700&display=swap" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link href="styles.css" rel="stylesheet">
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>GIF Animation Control</title>
+    <link rel="stylesheet" href="s.css">
 </head>
 <body>
-    <section>
-        <div class="flex-container">
-            <div class="flex-item1">
-                <img src="elmo-landing-removebg-preview.png"/>
-            </div>
-            <div class="flex-item2">
-                <div class="wrapper">
-                    <form action="">
-                        <h1>Hey there!</h1>
-                        <p>Login to see our dashboard</p>
-                         <!--_________________________textfields_________________________________-->
-                        <div class="input-box">
-                            <input type="text" placeholder="Username" required>
-                            <i class='bx bx-user'></i>
-                        </div>
-                        <div class="input-box">
-                            <input type="password" placeholder="Password" required>
-                            <i class='bx bxs-lock-alt' ></i>
-                        </div>
-                        <!--_________________________forgot_________________________________-->
-                        <div class="remember-forgot">
-                            <label>
-                                <input type="checkbox">Remember me!
-                            </label>
-                            <a href="#" >Forgot password</a>
-                        </div>
-                         <!--_________________________login_________________________________-->
-                        <button type="submit" class="btn">Log in</button>
-                         <!--_________________________google_________________________________-->
-                        <div class="line">
-                            <h5>Or</h5>
-                        </div>
-                        <div class="google">
-                            <button type="submit" class="google-btn">Log in with google <i class='bx bxl-google' ></i></button>
-                        </div>
-                    </form>
-                </div>
-
-            </div>
+    <nav>
+        <h3>
+            <img src="https://i.ibb.co/VS58Yyn/panda-6583478.png">
+        </h3>
+        <h3 id="elmo">elmo</h3>
+        <a href="tracky.html"><h3>tracky</h3></a>
+        <a href="sourcera.html"><h3>sourcera</h3></a>
+        <a href="roadmaps.html"><h3>roadmaps</h3></a>
+        <a href="about.html"><h3>✉</h3></a>
+    </nav>
+    <div id="id">
+        <div class="gif-container">
+            <img id="gif" src="" alt="GIF">
         </div>
-    </section>
+        <div id="func">
+            <button id="partyA">
+                <img id="party" src="https://i.ibb.co/PTD0L5t/party-popper-3146557.png">
+            </button>
+            <button id="partyB">
+                <img id="eat" src="https://i.ibb.co/n0nCdQ8/fork-1046755.png">
+            </button>
+            <button id="partyC">
+                <img id="sleep" src="https://i.ibb.co/DtWSCTF/moon-865813.png">
+            </button>
+            <button id="partyD">
+                <img id="love" src="https://i.ibb.co/kcsq4QK/heart-4974112.png">
+            </button>
+            <div id="start-stop">
+                <button id="startBtn">start</button>
+                <button id="stopBtn">stop</button>
+            </div>
+            <p id="duration">Duration: 0</p>
+        </div>
+    </div>
+    <script src="s.js" defer type="module"></script>
+
+    
+
 </body>
-
-
-
 
 </html>
